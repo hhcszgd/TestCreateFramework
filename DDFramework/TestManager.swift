@@ -13,3 +13,8 @@ open class TestManager: NSObject {
         print("success !!!")
     }
 }
+public extension UIButton {
+    public static   func buttonClick() {
+        print("button click !!!")
+    }
+}
